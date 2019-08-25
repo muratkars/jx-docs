@@ -63,13 +63,13 @@ We can always add monocular back as an optional [App](/apps) later on when it wo
 
 ## 12th June 2019: Knative Build now deprecated
 
-Knative Build was our first attempt at building a serverles offering in Jenkins X. Since then Knative build got replaced with the more powerful Knative Build Pipelines which then got moved and renamed to [Tekton](https://tekton.dev/).
+Knative Build was our first attempt at building a serverless offering in Jenkins X. Since then Knative build got replaced with the more powerful Knative Build Pipelines which then got moved and renamed to [Tekton](https://tekton.dev/).
 
-So we highly recommend anyone who has created a Jenkins X installation using knative build to move to a [Servlerless Jenkins X Pipelines](/architecture/jenkins-x-pipelines/) cluster using Tekton instead.
+So we highly recommend anyone who has created a Jenkins X installation using knative build to move to a [Serverless Jenkins X Pipelines](/architecture/jenkins-x-pipelines/) cluster using Tekton instead.
 
 Now the `jx` binary will warn that any attempt at using `--knative-build` when installing is deprecated.
 
-We will soon have a build pack for [Jenkinsfile runner](https://github.com/jenkinsci/jenkinsfile-runner) when using Tekton in case you need to reuse a Jenkisnfile within [Servlerless Jenkins X Pipelines](/architecture/jenkins-x-pipelines/) and Tekton along with support for orchestrating `Jenkinsfile` within a [custom Jenkins server](/architecture/custom-jenkins/) 
+We will soon have a build pack for [Jenkinsfile runner](https://github.com/jenkinsci/jenkinsfile-runner) when using Tekton in case you need to reuse a Jenkisnfile within [Serverless Jenkins X Pipelines](/architecture/jenkins-x-pipelines/) and Tekton along with support for orchestrating `Jenkinsfile` within a [custom Jenkins server](/architecture/custom-jenkins/) 
 
 ## 21st May 2019: Skaffold upgrade to v0.29.0
 
